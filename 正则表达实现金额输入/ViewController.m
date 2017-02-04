@@ -42,6 +42,7 @@
     [self.view addSubview:self.scrollView];
     
     NSLog(@"修改了一些东西");
+    NSLog(@"老杨修改的内容");
 }
 #pragma mark---------控件设置---------
 - (UIScrollView *) scrollView
