@@ -40,6 +40,8 @@
     
     self.automaticallyAdjustsScrollViewInsets = NO;
     [self.view addSubview:self.scrollView];
+    
+    NSLog(@"修改了一些东西");
 }
 #pragma mark---------控件设置---------
 - (UIScrollView *) scrollView
