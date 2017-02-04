@@ -1,6 +1,5 @@
-# 支付金额输入，限定输入价格类型的数字，UITextField
-一个支付金额输入框，只能输入合法的金额数字，其它字符一律无法输入
-在UITextField的代理里面利用正则表达式实现输入限制
+# 支付金额输入
+一个支付金额、价格UITextField输入框，限定输入价格类型的数字。只能输入合法的金额数字，其它字符一律无法输入，在UITextField的代理里面利用正则表达式实现输入限制
 
 核心代码：
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
